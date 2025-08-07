@@ -7,4 +7,4 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
     curl \
     npm 
 
-RUN npm install -g hexo-cli
+RUN npm install -g hexo-cli hexo-deployer-git
